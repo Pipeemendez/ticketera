@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    background-color: rgb(233, 233, 233);
 }
 
 .navbar-elemento {
