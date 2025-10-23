@@ -8,6 +8,9 @@ const eventos = [
     {id:7, nombre:"Dua Lipa", fecha:"2024-05-20", lugar:"Teatro Caupolicán", precio:70},
     {id:8, nombre:"The Weeknd", fecha:"2024-06-30", lugar:"Movistar Arena", precio:90},
     {id:9, nombre:"Adele", fecha:"2024-07-25", lugar:"Estadio Nacional", precio:130},
+    {id:10, nombre:"Lucky Brown", fecha:"2024-08-15", lugar:"Estadio Monumental", precio:85},
+    {id:11, nombre:"Imagine Dragons", fecha:"2024-09-10", lugar:"Teatro Caupolicán", precio:95},
+    {id:12, nombre:"Billie Eilish", fecha:"2024-10-05", lugar:"Movistar Arena", precio:105}
 ]
 
 export default eventos;
