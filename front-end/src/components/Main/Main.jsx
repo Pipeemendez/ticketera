@@ -1,5 +1,6 @@
 import "./Main.css";
-import "./../../data/cartelera.js";
+import eventos from "../../data/cartelera"; "./../../data/cartelera.js";
+import Evento from "./Evento/Evento.jsx";
 
 function Main () {
     return (
@@ -9,48 +10,15 @@ function Main () {
 
             <div className="cartelera">
                 <h3 className="cartelera-title">Upcoming Events</h3>
-                <ul className="cartelera-list">
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                    <li className="cartelera-item">
-                        <h4 className="cartelera-name">Los Jaivas</h4>
-                        <p className="cartelera-details">Date: 2023-10-15 | Venue: Estadio Nacional | Price: $50</p>
-                    </li>
-                </ul>
+
+            <ul className="cartelera-list">
+                {
+                eventos.map(evento => (
+                    <Evento  key={evento.id} evento={evento}/>    
+                ))
+                }
+            </ul> 
+                
             </div>
         </main>
     )
