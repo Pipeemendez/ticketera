@@ -7,14 +7,14 @@ function Navbar () {
     return (
         <nav className="navbar">
             <div className='navbar-section-1'> 
-                Ticketera 
+                <Link className='link' to="/"> Ticketera </Link> 
             </div>
             <div className='navbar-busqueda'> 
                 Búsqueda
             </div>
             <div className='navbar-section-2'>   
                 <div>
-                    <Link to="/perfil"> <CgProfile /> </Link>
+                    <Link className='link' to="/perfil"> <CgProfile /> </Link>
                 </div>
                 <div>
                     <FaShoppingCart size={24} color="black" />
