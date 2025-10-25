@@ -1,11 +1,23 @@
 import './Perfil.css';
+import Navbar from '../../components/Navbar/Navbar.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 function Perfil () {
     return (
-        <div className="perfil">
-            <h2 className="perfil-title">Mi Perfil</h2>
-            <p className="perfil-description">Aquí puedes ver y editar la información de tu perfil.</p>
-        </div>
+        <>
+        <Navbar />
+
+        <main className='perfil'>
+            <h2 className='perfil-title'>Mi Perfil</h2>
+            <div className='perfil-info'>
+                <p><strong>Nombre:</strong> Juan Pérez</p>
+                <p><strong>Email:</strong> </p>
+            </div>
+        </main>
+
+        <Footer />
+        </>
+        
     )
 }
 
