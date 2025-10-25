@@ -10,8 +10,8 @@ function Perfil () {
         <main className='perfil'>
             <h2 className='perfil-title'>Mi Perfil</h2>
             <div className='perfil-info'>
-                <p><strong>Nombre:</strong> Juan Pérez</p>
-                <p><strong>Email:</strong> </p>
+                <p><strong>Nombre:</strong> Juan Pérez </p>
+                <p><strong>Email:</strong> juan.pérez@gmail.com </p>
             </div>
         </main>
 
