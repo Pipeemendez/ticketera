@@ -10,14 +10,15 @@ function Evento ({evento}) {
         <li className="cartelera-item">
             <h4 className="cartelera-name"> {evento.nombre} </h4>
             <p className="cartelera-details"> {evento.fecha} | Lugar: {evento.lugar} | Precio: ${evento.precio} </p>
-            <Boton info = "Ver más información" onClick={() => {
+            <Boton info = "Ver más información" className = "" onClick={() => {
                 setInfoEvento(true);
             }}/>
             {infoEvento && (
                 <div className="cartelera-info-visible">
                     <h4 className="cartelera-name"> {evento.nombre} </h4>
-                    <p className="cartelera-details"> {evento.fecha} | Lugar: {evento.lugar} | Precio: ${evento.precio} </p>
-                    <Boton info = "Cerrar" onClick={() => {
+                    <p className="cartelera-details"> Entradas Disponibles {evento.entradasDisponibles} </p>
+                    <Boton info = "Comprar" className = "-comprar"/>
+                    <Boton info = "Cerrar" className = "" onClick={() => {
                         setInfoEvento(false);
                     }}/>
                 </div>
