@@ -16,3 +16,14 @@
     font-size: 1.5em;
     text-align: center;
 }
+
+.cartelera-info-visible{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+}
