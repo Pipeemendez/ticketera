@@ -1,5 +1,5 @@
 .cartelera-item {
-    width: 300px;
+    width: 350px;
     height: 200px;
     cursor: pointer;
     display: flex;
@@ -28,6 +28,6 @@
     border-radius: 15px;
     padding: 10px;
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
