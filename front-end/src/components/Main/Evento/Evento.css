@@ -30,4 +30,9 @@
     position: absolute;
     width: 350px;
     height: 200px;
+
+    .cartelera-details {
+        font-size: 1.5em;
+        text-align: center;
+    }
 }
