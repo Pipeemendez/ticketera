@@ -10,6 +10,11 @@ function NavbarActions () {
                 <Link className='link' to="/perfil"> <CgProfile /> </Link>
             </div>
             <div>
+                <Link className='link' to="/"> 
+                <p> Iniciar Sesión </p> 
+                </Link>
+            </div>
+            <div>
                 <FaShoppingCart size={24} color="black" />
             </div>
         </div>
