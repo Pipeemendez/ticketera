@@ -9,7 +9,12 @@ function Evento ({evento}) {
     return (
         <li className="cartelera-item">
             <h4 className="cartelera-name"> {evento.nombre} </h4>
-            <p className="cartelera-details"> {evento.fecha} | Lugar: {evento.lugar} | Precio: ${evento.precio} </p>
+            <div className="cartelera-details">
+                <p> Fecha: {evento.fecha} </p>
+                <p> Lugar: {evento.lugar} </p>
+                <p> Precio: ${evento.precio}</p>
+            </div>
+            
             <Boton info = "Ver más información" className = "button" onClick={() => {
                 setInfoEvento(true);
             }}/>
