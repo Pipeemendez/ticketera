@@ -1,0 +1,11 @@
+.logo {
+    gap: 20px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.logo link {
+    text-decoration: none;
+    color: black;
+}
