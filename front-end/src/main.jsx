@@ -4,12 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App.jsx';
 import Perfil from './pages/Perfil/Perfil.jsx';
+import Login from './pages/Login/Login.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/inicio" element={<App />} />
         <Route path='/perfil' element={<Perfil />} />
       </Routes>
     </BrowserRouter>
