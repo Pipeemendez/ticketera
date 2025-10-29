@@ -28,3 +28,9 @@
     border: 1px solid white;
     height: 100%;
 }
+
+.form-button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 20px;
+}
