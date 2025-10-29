@@ -16,7 +16,7 @@ function LoginForm() {
                 </div>
                 <div>
                     <Link className='link' to="/inicio">
-                        <Boton info="Iniciar sesión" className="button" type="submit" />
+                        <Boton info="Iniciar sesión" className="button form-button" type="submit" />
                     </Link>
                 </div>
             </form>
