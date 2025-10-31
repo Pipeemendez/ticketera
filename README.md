@@ -1,2 +1,4 @@
 # ticketera
-Este es un proyecto personal, donde creo una ticketera tipo puntoticket con React como frontend y NodeJS + Express como backend. La base de datos utilizada es PostgreSQL. Se crea este repositorio con fines educativos para aprender, practicar y aplicar conocimientos sobre desarrollo web.
+Este es un proyecto personal, donde creo una ticketera con React como frontend y próximamente la idea es agregar: NodeJS + Express como backend y PostgreSQL como base de datos. 
+
+# Se crea este repositorio con fines educativos para aprender, practicar y aplicar conocimientos sobre desarrollo web.
