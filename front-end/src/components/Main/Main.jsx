@@ -1,6 +1,6 @@
 import "./Main.css";
 import eventos from "../../data/cartelera"; "./../../data/cartelera.js";
-import Evento from "./Evento/Evento.jsx";
+import EventoCard from "./EventoCard/EventoCard.jsx";
 
 function Main () {
     return (
@@ -14,7 +14,7 @@ function Main () {
             <ul className="cartelera-list">
                 {
                 eventos.map(evento => (
-                    <Evento  key={evento.id} evento={evento}/>    
+                    <EventoCard  key={evento.id} evento={evento}/>    
                 ))
                 }
             </ul> 
