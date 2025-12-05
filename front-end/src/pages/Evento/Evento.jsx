@@ -2,6 +2,7 @@ import './Evento.css';
 import Navbar from '../../components/Navbar/Navbar.jsx';
 import { useParams } from 'react-router-dom';
 import eventos from "../../data/cartelera.js";
+import Boton from '../../components/Boton/Boton.jsx';
 
 function Evento () {
 
@@ -19,6 +20,10 @@ function Evento () {
             <p className="evento-detail">Lugar: {evento.lugar}</p>
             <p className="evento-detail">Precio: ${evento.precio}</p>
             <p className="evento-description">{evento.descripcion}</p>
+
+            <Boton info="Agregar al carrito" className="button"/>
+            <Boton info="Comprar Entradas" className="button button-comprar"/>
+
         </div>
         
         </>
